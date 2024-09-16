@@ -1,0 +1,33 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    background-color: #d0cece;
+
+
+}
+
+nav a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color:grey;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    padding-top: 8px;
+   
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav a:hover{
+    background-color: rgb(91, 90, 90);
+}
